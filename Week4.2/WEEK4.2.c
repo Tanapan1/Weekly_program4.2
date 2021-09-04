@@ -11,7 +11,7 @@ int main() {
 	while (remain > 0) {
 		dist = dist + 1;
 		if (dist % 10 == 0 ) { 
-			remain = remain + 1000; 
+			remain = remain + 10000; 
 		}
 		else {
 			f = f + (f * (5.0 / 100));
